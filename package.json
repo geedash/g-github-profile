@@ -4,8 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "preinstall": "npx only-allow pnpm",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "engines": {
+    "node": ">=10",
+    "pnpm": ">=3"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/geedash/g-github-profile.git"
@@ -21,6 +26,7 @@
   "homepage": "https://github.com/geedash/g-github-profile#readme",
   "dependencies": {
     "@appnest/readme": "^1.2.7",
+    "pnpm": "^5.13.5",
     "pug": "^3.0.0"
   }
 }
