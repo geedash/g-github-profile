@@ -2,7 +2,7 @@
   "name": "g-github-profile",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "pnpmfile.js",
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "test": "echo \"Error: no test specified\" && exit 1"
